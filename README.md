@@ -267,6 +267,8 @@ systemctl start collaborator
 6、参考连接
 
 	- https://portswigger.net/burp/documentation/collaborator/server/private
+ 	- https://portswigger.net/burp/documentation/collaborator/server/private/example
+  	- https://portswigger.net/burp/documentation/collaborator/server/private#setting-up-the-configuration-file
 	- https://blog.roughwire.com/?p=24
 	- https://www.linkedin.com/pulse/setting-up-private-burp-collaborator-server-google-cloud-mark-sowell-3fglc
 	- https://www.nuharborsecurity.com/blog/creating-a-private-burp-collaborator-in-amazon-aws-with-a-letsencrypt-wildcard-certificate
