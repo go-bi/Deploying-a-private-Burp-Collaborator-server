@@ -189,6 +189,8 @@ snap install --classic certbot
 ```
 certbot certonly -d outofbandconnections.yourdomain.com -d *.outofbandconnections.yourdomain.com  --server https://acme-v02.api.letsencrypt.org/directory --manual --agree-tos --no-eff-email --manual-public-ip-logging-ok --preferred-challenges dns-01
 ```
+**注意**：使用子域 outofbandconnections.yourdomain.com 需指向（您的VPS外部IP）的一条A记录，否则申请通配符证书无法通过验证
+
 按照指南进行操作（它会要求您插入电子邮件）。
 
 之后，您将看到有关如何显示 DNS TXT 记录的第一条消息。
